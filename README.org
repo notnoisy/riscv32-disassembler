@@ -4,6 +4,7 @@ Desmontador de assembly de RISCV32
 
 ** Testes
 #+begin_src shell
-./sample-tests/run-disassembler.sh       # runs disassembler on test cases
-python ./sample-tests/grade-results.py   # grades output based on expected result
+cd sample-tests;
+./run-disassembler.sh;              # runs disassembler on test cases
+python grade-results.py my_output; # grades output based on expected result
 #+end_src
